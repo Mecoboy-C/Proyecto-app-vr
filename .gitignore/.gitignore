@@ -1,0 +1,36 @@
+# Carpetas generadas automáticamente por Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Bb]uilds_*/
+
+# Configuración local de usuario
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.svd
+
+# Archivos de VS Code
+.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de build grandes (¡los puedes subir manualmente si quieres!)
+# Aquí puedes excluir todos los builds...
+# Y luego permitir una carpeta específica como "Builds/Windows"
+
+# Excluir todo
+Builds/
+
+# Pero permitir estos si los tienes
+!Builds/Windows/
+!Builds/Windows/*.exe
+!Builds/Windows/*_Data/**
+!Builds/Windows/UnityPlayer.dll
